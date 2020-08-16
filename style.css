@@ -1,0 +1,54 @@
+body,html {
+	height: 100%;
+	font-family: Helvetica;
+	background-color: #121212;
+	color: white;
+	width: 85%;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 10px;
+}
+
+p{
+	font-size: 24px;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+	margin: 10px 10px 10px 10px;
+}
+
+/* Just need to align Mail Icon to left margin */
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+	p {
+		font-size: 16px;
+	}
+	
+	img {
+		height: 25px;
+		width: 25px;
+	}
+}
+
+	@media screen and (min-width: 500px) and (max-width: 800px) {
+		p {
+			font-size: 24px;
+		}
+}
+
+
+
